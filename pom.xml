@@ -26,6 +26,12 @@
 		</dependency>
 
         <dependency>
+            <groupId>nz.net.ultraq.thymeleaf</groupId>
+            <artifactId>thymeleaf-layout-dialect</artifactId>
+            <version>3.0.0</version>
+        </dependency>
+
+        <dependency>
             <groupId>org.webjars.npm</groupId>
             <artifactId>alpinejs</artifactId>
             <version>3.11.1</version>
@@ -36,10 +42,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	<dependency>
-    <groupId>nz.net.ultraq.thymeleaf</groupId>
-    <artifactId>thymeleaf-layout-dialect</artifactId>
-</dependency><!-- Web dependencies --><dependency>
+<!-- Web dependencies --><dependency>
     <groupId>org.webjars</groupId>
     <artifactId>webjars-locator</artifactId>
     <version>0.46</version>

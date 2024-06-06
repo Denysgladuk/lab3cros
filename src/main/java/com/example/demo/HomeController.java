@@ -8,12 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 
 @Controller
-@RequestMapping("/")
 public class HomeController {
-    @GetMapping
-    public String index(Model model) {
-        model.addAttribute("pageTitle", "Hello JVM world!");
-        model.addAttribute("languages", List.of("Java", "Kotlin", "Groovy", "Clojure"));
-        return "index";
+
+    @GetMapping("/home")
+    public String home() {
+        return "home/index";
     }
 }
